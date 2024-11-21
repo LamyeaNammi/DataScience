@@ -1,0 +1,73 @@
+1+1
+2+1
+sqrt(10)
+pi
+2+3*5
+i<-1
+while(i<6){
+  print(i)
+  i<-i+1
+}
+i<-1
+while(i<6){
+  print(i)
+  i<-i+1
+  if(i==4){
+    break
+  }
+}
+i<-0
+while(i<6){
+  i<-i+1
+  if(i==3){
+    next
+  }
+  print(i)
+}
+for(x in 1:10){
+  print(x)
+}
+for(x in 1:2){
+  for(y in 1:3){
+    print(x*y)
+  }
+}
+add_numbers<-function(a,b){
+  sum<-a+b
+  return(sum)
+}
+print(add_numbers(4,5))
+
+a<-c(1,2,5,3,6,-2,4)
+b<-c("one","two","three")
+C<-c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE)
+a<-c(1,2,5,3,6,-2,4)
+min(a)
+max(a)
+sd(a)
+range(a)
+b<-c("one","two","three")
+nchar(b)
+nchar(C)
+x<-c(2,4,6,8)
+x+2
+x*3
+x<-c("B","A","C")
+sort(x)
+x<-c("P","R","E","O","T","Y")
+sort(x)
+x<-c("B","A","C")
+sort(x,decreasing = TRUE)
+x<-c(20,10,40,15)
+x[2]
+x[1:3]
+x[c(1,3)]
+patientID<-c(1,2,3,4)
+age<-c(25,34,28,52)
+diabetes<-c("Type1","Type2","Type3","Type4")
+status<-c("poor","Improved","Excellent","poor")
+patientdata<-data.frame(patientID,age,diabetes,status)
+patientdata
+
+patientdata$bloodgroup<-c("A","B","c","D")
+patientdata[c()]
